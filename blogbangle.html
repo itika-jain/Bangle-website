@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangle website</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="assets/bangle_logo.JPG" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutbangle.html">ABOUT</a></li>
+                    <li><a href="servicebangle.html">SERVICES</a></li>
+                    <li><a href="blogbangle.html">BLOG</a></li>
+                    <li><a href="contactbangle.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Success</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="assets/successbangle.jpg">
+                <h2>Slowly We Reached To Heights</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, hic dicta alias architecto
+                    exercitationem repellat perspiciatis accusamus dolor commodi? Numquam veritatis ut quis id fuga quas
+                    nemo sunt laudantium rerum? Voluptates voluptatibus inventore aliquid totam, rerum quia dolor, non
+                    in corrupti beatae numquam sunt nemo rem. Ea assumenda tempora incidunt commodi iusto similique,
+                    maxime quod quasi, corporis sed unde eius.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo commodi facilis minus, eius
+                    expedita impedit quaerat incidunt possimus aliquam eveniet corrupti ducimus saepe assumenda iste
+                    enim dolorum beatae error reprehenderit corporis nemo adipisci odio harum rem ratione. Voluptas
+                    exercitationem fugiat, facere cupiditate neque laboriosam doloribus ab impedit enim iusto odio
+                    voluptates saepe esse consequuntur sequi quasi laborum est dignissimos. Itaque.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum labore minima ad quis. Veniam accusamus,
+                    accusantium libero, saepe aliquid, itaque rerum quisquam fuga quia cumque praesentium ea consequatur
+                    provident at natus velit pariatur a! Voluptas perferendis vero, sed, incidunt eligendi fugiat
+                    voluptatum dolor, dolores reiciendis quia praesentium odio quos ab quod nesciunt! Natus enim
+                    nesciunt laboriosam id deleniti sed inventore.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptas quo accusantium nesciunt
+                    vero autem ab maxime nam molestias. Dignissimos aliquam soluta pariatur culpa atque autem iusto nemo
+                    excepturi doloremque ea molestiae voluptatibus, modi voluptates debitis tempora, eius velit. At
+                    tempore quod hic laborum consequuntur minus perferendis libero aliquam assumenda corporis dolores,
+                    quisquam autem voluptatem nulla, quos expedita dolor blanditiis!</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment">
+                            </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Lakh</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Chapdi</span>
+                    <span>4</span>
+                </div>
+                <div>
+                    <span>Metal</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Brass</span>
+                    <span>8</span>
+                </div>
+                <div>
+                    <span>Glass</span>
+                    <span>3</span>
+                </div>
+                <div>
+                    <span>seep</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Velvet</span>
+                    <span>18</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptas culpa illum corporis incidunt
+            dignissimos dolor,<br> error ad nesciunt beatae ullam unde quis non amet eos minus fuga quod sed!</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/102807741572830/posts/257255486128054/" target="_blank"><i
+                    class="fa fa-facebook"></i></a>
+            <i class="fa fa-twitter"></i>
+            <a href="https://www.instagram.com/agroha_bangles/?igshid=hcxalowkvo3b" target="_blank"> <i
+                    class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/priyanshu-jain-3519a1a7" target="_blank"><i
+                    class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> By Itika Jain</p>
+    </section>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-300px";
+        }
+    </script>
+</body>
+
+</html>
