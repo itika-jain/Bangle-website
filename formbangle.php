@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $number = $_POST['number'];
 $message = $_POST['message'];
 
-$email_from = 'info@yourwebsite.com';
+$email_from = 'info@https://itika-jain.github.io/Bangle-website/';
 
 $email_subject = 'New Form Submission';
 
